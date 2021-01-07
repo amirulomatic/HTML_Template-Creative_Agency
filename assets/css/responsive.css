@@ -10,6 +10,33 @@
         padding: 0px 40px;
     }
 
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 70%;
+        right: 0px;
+        padding: 30px 70px;
+        background: rgb(213,139,229);
+        background: linear-gradient(143deg, rgba(213,139,229,1) 0%, rgba(248,215,181,1) 100%);
+    }
+    
+    .menu ul li{
+        display: block;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
     .banner{
         align-items: center !important;
         flex-direction: column;
@@ -110,6 +137,33 @@
 
     .container{
         padding: 0px 50px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 70%;
+        right: 0px;
+        padding: 30px 70px;
+        background: rgb(213,139,229);
+        background: linear-gradient(143deg, rgba(213,139,229,1) 0%, rgba(248,215,181,1) 100%);
+    }
+    
+    .menu ul li{
+        display: block;
+    }
+
+    .hamburger-menu{
+        display: block;
     }
 
     .banner{
@@ -214,6 +268,33 @@
         padding: 0px 50px;
     }
 
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 70%;
+        right: 0px;
+        padding: 30px 70px;
+        background: rgb(213,139,229);
+        background: linear-gradient(143deg, rgba(213,139,229,1) 0%, rgba(248,215,181,1) 100%);
+    }
+    
+    .menu ul li{
+        display: block;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
     .banner{
         flex-direction: row;
     }
@@ -312,6 +393,32 @@
     .container{
         padding: 0px 50px;
     }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .menu{
+        display: block;
+        position: unset;
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .menu ul li{
+        display: inline-block;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+    
 
     .banner{
         flex-direction: row;
@@ -427,6 +534,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
+}
+
+.menu{
+    display: block;
+    position: unset;
+    background: transparent;
+    width: auto;
+    padding: 0;
+}
+
+.hamburger-menu{
+    display: none;
 }
 
 

@@ -19,8 +19,18 @@
 .header{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     padding: 50px 0;
+    position: relative;
+}
+
+.menu{
+    display: block;
+    position: unset;
+    background: transparent;
+    width: auto;
+    padding: 0;
 }
 
 
@@ -34,13 +44,35 @@
     color: white;
     font-size: 14px;
     font-weight: 600;
+    transition: all .2s ease-in;
 }
 
-.menu ul li .active {
+.menu ul li a:hover{
+    color: rgb(145, 154, 180);
+}
+
+
+
+.menu ul li .active2 {
     background-color: white !important;
     color: #DEA0D8;
     border-radius: 50px;
     padding: 10px 30px;
+}
+
+.menu ul li .active2:hover{
+    background: linear-gradient(151deg, rgba(214,142,227,1) 0%, rgba(247,214,182,1) 100%) !important;
+    color: #fff;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.hamburger-menu a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
 }
 
 
